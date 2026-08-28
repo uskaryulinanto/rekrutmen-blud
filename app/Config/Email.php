@@ -6,8 +6,8 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = '';
-    public string $fromName   = '';
+    public string $fromEmail  = 'uskaryulinanto@gmail.com';
+    public string $fromName   = 'Panitia Rekrutmen BLUD';
     public string $recipients = '';
 
     /**
